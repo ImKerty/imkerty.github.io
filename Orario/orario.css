@@ -1,0 +1,81 @@
+html{
+    
+    background: linear-gradient( to left,#187455, #90ee90);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+a:visited { 
+    color: azure; 
+    
+   }
+
+.font {
+    margin: 5px;
+    width: 1000px;
+    text-align: center;
+    color: azure;
+}
+
+.titolo {
+
+    font-size: 30px;
+    background-color: #20684a;
+    padding:20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.giorni {
+    
+    font-size: 50px;
+    padding: 80px;
+    background-color: #20684a;
+    text-align: center;
+    border-style:dashed;
+    border-color: #184d39;
+    border-width: 10px;
+    border-radius: 15px;
+}
+
+.oreGiorni{
+
+
+    color:azure;
+    font-size: 25px;
+    padding: 30px;
+    background-color: #20684a;
+    text-align: center;
+    border-radius: 15px;
+    border-style:dashed;
+    border-color: #0d2019;
+    border-width: 4px;
+    
+}
+.materie {
+
+    color:bisque;
+    font-size: 20px;
+    padding: 85px;
+    background-color: #20684a;
+    text-align: center;
+    border-style:dashed;
+    border-color: #0d2019;
+    border-width: 4px;
+    border-radius: 25px;
+    
+}
+
+.container {
+    text-align: left;
+}
+
+.button-container {
+    margin-top: 20px;
+}
