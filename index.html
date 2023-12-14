@@ -1,42 +1,100 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="png" href="logo.png">
-    <title>GOTY by Denis</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Networking Explained</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      
+        header {
+            color: #fff;
+            text-align: center;
+            margin:20px;
+            
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            font-weight:550;
+        }
+        .contenuto {
+          backdrop-filter: blur(5px);
+            border-radius: 60px;
+            border:none;
+            margin-top:4%;
+            background-color: rgba(9, 17, 25, 0.2);
+            
+        }
+        .col-6 {
+            margin: 30px;
+        }
+
+      
+
+        .test:hover {
+            transform: scale(1.1);
+        }
+
+        .test {
+            background-color: rgba(9, 17, 25, 0.2);
+            color:white;
+            text-align: center;
+            font-size: 30px;
+            border:none;
+            width: 590px;
+            backdrop-filter: blur(5px);
+            border-radius: 20px;
+            transition: transform 0.5s ease;
+            padding-top:10px;
+            
+          }
+        
+          .titolo {
+            padding-top:20px;
+          }
+    </style>
 </head>
+
 <body>
-   
-        <div class="menu">
-           
-            <button style="font-size:30px" class="colore-bottone-selezionato"><a href="goty.html"><h4>Game Of The Year</h4></a></button>
-            <div class="contenuto-menu">
-                
-                <button class="colore-bottone-selezionato"><a href="2010.html"><h3>2010</h3></a></button>
-                <button class="colore-bottone-selezionato"><a href="2011.html"><h3>2011</h3></a></button>
-                <button class="colore-bottone-selezionato"><a href="2012.html"><h3>2012</h3></a></button>
-                <button class="colore-bottone-selezionato"><a href="2013.html"><h3>2013</h3></a></button>
-                <button class="colore-bottone-selezionato"><a href="2014.html"><h3>2014</h3></a></button>
-                <button class="colore-bottone-selezionato"><a href="2015.html"><h3>2015</h3></a></button>
-                <button class="colore-bottone-selezionato"><a href="2016.html"><h3>2016</h3></a></button>
-                <button class="colore-bottone-selezionato"><a href="2017.html"><h3>2017</h3></a></button>
-                <button class="colore-bottone-selezionato"><a href="2018.html"><h3>2018</h3></a></button>
-                <button class="colore-bottone-selezionato"><a href="2019.html"><h3>2019</h3></a></button>
-                <button class="colore-bottone-selezionato"><a href="2020.html"><h3>2020</h3></a></button>
-                <button class="colore-bottone-selezionato"><a href="2021.html"><h3>2021</h3></a></button>
-                <button class="colore-bottone-selezionato"><a href="2022.html"><h3>2022</h3></a></button>
-                
+  <div class="container contenuto border-dark">
+    <header>
+
+     
+        <div class="titolo">
+            <h1 style="margin-bottom: 30px;">Welcome to Denis's Website</h1>
+            <h4>Explore the fundamental concepts of computer networking through two main frameworks: ISO-OSI and TCP/IP.</h4>
+        </div>
+    </header>
+    <main>
+        <div class="d-flex">
+            <div class="col-6 test">
+                <a href="tcpip_Introduction.html">
+                  <p>TCP/IP</p><br>
+            <p>Learn the basics of the TCP/IP protocol suite and its significance in computer networking.</p>
+                </a>
+            </div>
+            <div class="col-6 test">
+                <a href="#">
+                  <p>ISO-OSI</p><br>
+                  <p>Explore the layers of the ISO/OSI model and understand how it defines network interactions.</p>
+                </a>
             </div>
         </div>
-        
-        <div>
-            <img class="immagine-homepage" src="homepage.png">
-        </div>
-   
-</body>
-<footer>
-    <p>&copy; Pagina realizzata da Denis Neagu Iulian, 4N, <a href="easteregg.html" target=_blank>ඞ</a</p>
- </footer>
+      </div>
+    </main>
+    <footer>
+
+        &copy; 2023 Denis Neagu Iulian. All rights reserved.
+     
+    </footer>
+  </body>
+
 </html>
