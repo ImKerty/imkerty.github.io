@@ -1,106 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="it">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Networking Explained</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="style.css" />
-    <style>
-      
-        header {
-            color: #fff;
-            text-align: center;
-            margin:20px;
-            
-        }
-
-        main {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 60vh;
-            font-weight:550;
-        }
-        .contenuto {
-          backdrop-filter: blur(5px);
-            border-radius: 60px;
-            border:none;
-            margin-top:4%;
-            background-color: rgba(9, 17, 25, 0.2);
-            
-        }
-        
-        .col-6 {
-            margin: 30px;
-        }
-
-      
-
-        .test:hover {
-            transform: scale(1.1);
-        }
-
-        .test {
-            background-color: rgba(9, 17, 25, 0.2);
-            color:white;
-            text-align: center;
-            font-size: 30px;
-            border:none;
-            width: 590px;
-            backdrop-filter: blur(5px);
-            border-radius: 20px;
-            transition: transform 0.5s ease;
-            padding-top:10px;
-            
-          }
-        
-          .titolo {
-            padding-top:20px;
-          }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Denis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
-
 <body>
-  <div class="container contenuto border-dark">
-    <header>
-
-     
-        <div class="titolo">
-            <h1 style="margin-bottom: 30px;">Welcome to Denis's Website</h1>
-            <h4>Explore the fundamental concepts of computer networking through two main frameworks: ISO-OSI and TCP/IP.</h4>
+    <video autoplay muted loop id="video-background">
+        <source src="assets/colorful-matrix-code-moewalls-com.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <div class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#" onclick="mostraSezione('home')"><i class="fas fa-home"></i> Home</a>
+            <a class="navbar-brand" href="#" onclick="mostraSezione('projects')"><i class="fas fa-folder"></i> Progetti</a>
+            <a class="navbar-brand" href="#" onclick="mostraSezione('aboutme')"><i class="fas fa-info-circle"></i> Chi Sono</a>
+            <a class="navbar-brand" href="#" onclick="mostraSezione('contact')"><i class="fas fa-envelope"></i> Contatto</a>
+           
         </div>
-    </header>
-    <main>
-        <div class="d-flex">
-            <a href="tcpip_Introduction.html">
-            <div class="col-6 test">
-                
-                <p>TCP/IP</p><br>
-                <p>Learn the basics of the TCP/IP protocol suite and its significance in computer networking.</p>
-               
+         
+        <div class="content">
+            <div id="home" class="square active">
+                <h2>Home</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit consequat cras, egestas tortor interdum tincidunt est congue nam. Fames ad porta platea habitant natoque suspendisse molestie, commodo magnis facilisis scelerisque integer condimentum eros, feugiat massa quisque urna mus justo. Ornare ante ultricies lacus conubia commodo suscipit nulla cubilia aliquet mi, tortor nostra quis velit integer consequat dui porta potenti nunc est, torquent class blandit parturient vel dapibus libero felis nisi.                </p>
             </div>
-         </a>
-            <a href="#">
-            <div class="col-6 test" title="Page not available">
-                
-                  <p>ISO-OSI</p><br>
-                  <p>Explore the layers of the ISO/OSI model and understand how it defines network interactions.</p>
-                  <p class="bg-danger rounded">Page not available for the moment</p>
-                
+            <div id="projects" class="square">
+                <h2>I Miei Progetti</h2>
+                <hr class="my-4" style="border: none; background-color: rgb(156, 56, 2); height: 1px;">
+                <h3>Esempio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit consequat cras, egestas tortor interdum tincidunt est congue nam. Fames ad porta platea habitant natoque suspendisse molestie, commodo magnis facilisis scelerisque integer condimentum eros, feugiat massa quisque urna mus justo. Ornare ante ultricies lacus conubia commodo suscipit nulla cubilia aliquet mi, tortor nostra quis velit integer consequat dui porta potenti nunc est, torquent class blandit parturient vel dapibus libero felis nisi.</p>
+                <hr class="my-4" style="border: none; background-color: rgb(156, 56, 2); height: 1px;">
+                <h3>Esempio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit consequat cras, egestas tortor interdum tincidunt est congue nam. Fames ad porta platea habitant natoque suspendisse molestie, commodo magnis facilisis scelerisque integer condimentum eros, feugiat massa quisque urna mus justo. Ornare ante ultricies lacus conubia commodo suscipit nulla cubilia aliquet mi, tortor nostra quis velit integer consequat dui porta potenti nunc est, torquent class blandit parturient vel dapibus libero felis nisi.</p>
+                <hr class="my-4" style="border: none; background-color: rgb(156, 56, 2); height: 1px;">
+                <h3>Esempio</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit consequat cras, egestas tortor interdum tincidunt est congue nam. Fames ad porta platea habitant natoque suspendisse molestie, commodo magnis facilisis scelerisque integer condimentum eros, feugiat massa quisque urna mus justo. Ornare ante ultricies lacus conubia commodo suscipit nulla cubilia aliquet mi, tortor nostra quis velit integer consequat dui porta potenti nunc est, torquent class blandit parturient vel dapibus libero felis nisi.</p>                            
+                <hr class="my-4" style="border: none; background-color: rgb(156, 56, 2); height: 1px;">
             </div>
-        </a>
+            <div id="aboutme" class="square">
+                <div class="about-me">
+                    <h2>Chi Sono</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh mauris cursus mattis molestie a iaculis.</p>
+                    <ul>
+                        <li><strong>Luogo:</strong> []</li>
+                        <li><strong>Lingue:</strong> []</li>
+                        <li><strong>Interessi:</strong> []</li>
+                        <li><strong>Formazione:</strong> []</li>
+                        <li><strong>Competenze:</strong> []</li>
+                        <li><strong>Esperienza:</strong> []</li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh mauris cursus mattis molestie a iaculis.</p>
+                </div>
+            </div>
+            
+            <div id="contact" class="square">
+                <h2>Le Mie Informazioni di Contatto</h2>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> Email: neagudenis5@gmail.com</li>
+                    <li><i class="fab fa-discord"></i> Discord: imkertyh</li>
+                    <li><i class="fas fa-phone"></i> Telefono: 3246664476</li>
+                    <li><i class="fab fa-twitter"></i> Twitter: @</li>
+                </ul>
+            </div>            
         </div>
-      </div>
-    </main>
-    <footer>
+    </div>
 
-        &copy; 2023 Denis Neagu Iulian. All rights reserved.
-     
-    </footer>
-  </body>
+    <script>
+        function mostraSezione(id) {
+            // Nascondi tutte le sezioni
+            var sezioni = document.querySelectorAll('.square');
+            sezioni.forEach(function(sezione) {
+                sezione.classList.remove('active');
+            });
 
+            // Mostra la sezione con l'ID corrispondente
+            document.getElementById(id).classList.add('active');
+        }
+    </script>
+</body>
 </html>
