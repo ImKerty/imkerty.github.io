@@ -1,0 +1,195 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+
+   
+}
+
+body {
+
+   background-color: rgb(21,31,46);
+    font-family:'Segoe UI';
+   font-size: 20px;
+}
+
+a {
+    
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.menu {
+  
+    
+    
+}
+
+.colore-bottone-selezionato {
+  
+    width: 100%; 
+   
+  
+}
+
+.contenuto-menu {
+    
+    display: flex;
+    flex-direction:row;
+    
+}
+
+
+button {
+    
+ 
+    background-color: rgba(9, 17, 25, 0.6);
+    border: none;
+    color: #fff;
+    padding: 20px;
+    padding-left: 58.7px;
+    padding-right: 58.7px;
+    cursor: pointer;
+    
+    
+}
+
+button:hover {
+
+    background-color: #181717;
+}
+
+a:hover {
+
+    background-color: #181717;
+}
+
+
+.testo-informazioni {
+
+    color:rgba(255, 255, 255, 0.7);
+   
+}
+
+.video {
+
+    width: 1000px;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.immagine {
+    padding:30px;
+    width: 1000px;
+}
+
+.immagine-homepage {
+    
+
+    width: 100%;
+}
+
+.background-tabelle {
+
+    background-color: rgba(9, 17, 25, 0.4);
+    
+}
+
+.tabella {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1230px;
+    
+}
+
+.colore-titolo{
+    
+    color:#fff;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+.alliea-titolo{
+    
+
+    text-align: center;
+     
+}
+
+.centrale {
+
+    border-radius: 10px;
+   
+}
+
+.testo-allineato {
+    
+    color:#ffffffb9;
+   
+} 
+
+.sinistra {
+    
+    margin-right:10px;
+    margin-top: 20px;
+    height: 420px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.destra {
+    
+    margin-left:10px;
+    margin-top: 20px;
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.tabelle-sinistra-e-destra {
+    display: flex;
+    
+}
+
+::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(21,31,46); 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.7); 
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+    background: rgb(21,31,46); 
+    border-radius: 10px;
+}
+
+footer {
+    
+    
+    background-color: rgba(9, 17, 25, 0.4);
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}

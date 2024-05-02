@@ -1,0 +1,89 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 720px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 225px;
+  height: 225px;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  background-image: url("../images/photo_2024-05-01_16-02-44.jpg");
+  background-position: 50% 50%;
+  margin: 63px 23px 0 auto;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3.75rem;
+  font-weight: 700;
+  margin: -225px auto 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-weight: 700;
+  margin: 0 auto 0 0;
+}
+
+.u-section-1 .u-line-1 {
+  width: 193px;
+  transform-origin: left center;
+  margin: 205px auto 0 0;
+}
+
+.u-section-1 .u-line-2 {
+  width: 912px;
+  margin: 11px auto 0 0;
+}
+
+.u-section-1 .u-text-3 {
+  font-size: 1.125rem;
+  margin: 6px 401px 0 0;
+}
+
+.u-section-1 .u-line-3 {
+  width: 50px;
+  transform-origin: left center;
+  margin: 9px auto 60px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    margin-top: -182px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 201px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-line-2 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-text-1 {
+    font-size: 3rem;
+  }
+
+  .u-section-1 .u-line-2 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-1 .u-line-2 {
+    width: 340px;
+  }
+}

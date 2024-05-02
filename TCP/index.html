@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Networking Explained</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      
+        header {
+            color: #fff;
+            text-align: center;
+            margin:20px;
+            
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60vh;
+            font-weight:550;
+        }
+        .contenuto {
+          backdrop-filter: blur(5px);
+            border-radius: 60px;
+            border:none;
+            margin-top:4%;
+            background-color: rgba(9, 17, 25, 0.2);
+            
+        }
+        .col-6 {
+            margin: 30px;
+        }
+
+      
+
+        .test:hover {
+            transform: scale(1.1);
+        }
+
+        .test {
+            background-color: rgba(9, 17, 25, 0.2);
+            color:white;
+            text-align: center;
+            font-size: 30px;
+            border:none;
+            width: 590px;
+            backdrop-filter: blur(5px);
+            border-radius: 20px;
+            transition: transform 0.5s ease;
+            padding-top:10px;
+            
+          }
+        
+          .titolo {
+            padding-top:20px;
+          }
+    </style>
+</head>
+
+<body>
+  <div class="container contenuto border-dark">
+    <header>
+
+     
+        <div class="titolo">
+            <h1 style="margin-bottom: 30px;">Welcome to Denis's Website</h1>
+            <h4>Explore the fundamental concepts of computer networking through two main frameworks: ISO-OSI and TCP/IP.</h4>
+        </div>
+    </header>
+    <main>
+        <div class="d-flex">
+            <div class="col-6 test">
+                <a href="tcpip_Introduction.html">
+                  <p>TCP/IP</p><br>
+            <p>Learn the basics of the TCP/IP protocol suite and its significance in computer networking.</p>
+                </a>
+            </div>
+            <div class="col-6 test">
+                <a href="isoosi_introduction.html">
+                  <p>ISO-OSI</p><br>
+                  <p>Explore the layers of the ISO/OSI model and understand how it defines network interactions.</p>
+                </a>
+            </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+
+        &copy; 2023 Denis Neagu Iulian. All rights reserved.
+     
+    </footer>
+  </body>
+
+</html>

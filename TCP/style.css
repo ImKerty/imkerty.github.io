@@ -1,0 +1,99 @@
+footer {
+  background-color: rgba(9, 17, 25, 0.1);
+  backdrop-filter: blur(5px);
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  margin-left: 25%;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 50%;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+a {
+    
+  text-decoration: none;
+  color: inherit;
+ 
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-image: url(\sfondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.sfondo-dashboard {
+  background-color: rgba(9, 17, 25, 0.2);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top:5%;
+  height: 90%;
+  width: 320px;
+  left: 0;
+  transition: 1s ease;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  
+}
+
+
+.home {
+  font-size: 20px;
+  text-align: right;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+
+.immagine {
+
+  
+  width: 480px;
+  margin-top:120px;
+ 
+
+}
+
+.contenuto-pagine {
+  margin: 0 auto;
+  color:#fff;
+  text-align: center;
+  border: none;
+  font-weight: 600;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(68, 74, 80, 0.3);
+  backdrop-filter: blur(2px);
+  font-size:larger;
+  margin-left: 25%;
+  margin-bottom: 80px;
+  
+}
+
+
+
+::-webkit-scrollbar{
+ 
+  width: 6px;
+  
+}
+
+::-webkit-scrollbar-track {
+background: rgb(255, 255, 255); 
+}
+
+::-webkit-scrollbar-thumb {
+background: #7fffd4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: rgba(0, 0, 0, 0.7); 
+}
+
+
